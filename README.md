@@ -1,2 +1,2 @@
-# howlongisitgoingtotake
+# How long is it going to take
 A website that tells you how long it is going to take...

@@ -1,0 +1,1 @@
+// No JS needed for infinite progress bar, but this file is here for future extensibility. 

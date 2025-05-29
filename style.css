@@ -22,12 +22,15 @@ body {
 }
 .progress {
   height: 100%;
-  width: 30%;
+  width: 5%; /* Initial width, will be updated by JS */
   background: linear-gradient(90deg, #4facfe 0%, #00f2fe 100%);
   border-radius: 10px;
-  animation: progress-move 1.2s linear infinite;
+  transition: width 0.7s cubic-bezier(0.4, 0, 0.2, 1);
 }
-@keyframes progress-move {
-  0% { margin-left: -30%; }
-  100% { margin-left: 100%; }
+.progress-message, #progress-message {
+  margin-top: 20px;
+  font-size: 1.1em;
+  color: #b0e0ff;
+  min-height: 1.5em;
+  transition: color 0.3s;
 } 
